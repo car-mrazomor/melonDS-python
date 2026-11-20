@@ -1,0 +1,17 @@
+build/
+melonds_python/_lib/
+__pycache__/
+*.pyc
+.venv/
+
+# ROMs, saves, BIOS/firmware dumps: never commit
+roms/
+*.nds
+*.sav
+*.bin
+smoke_out/
+
+.DS_Store
+
+# local tests
+tests/
