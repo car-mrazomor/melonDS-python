@@ -23,10 +23,11 @@ For Linux and Windows see [Building](building.md). The result is
 `melonds_python/_lib/libmelonds_py.dylib` (`.so` on Linux, `.dll` on Windows).
 The first build takes a minute or two. Later builds only recompile what changed.
 
-## 3. Install Pillow
+## 3. Install the Python dependencies
 
 ```sh
-pip install pillow
+pip install -r requirements.txt          # Pillow
+pip install -r requirements-window.txt   # Pillow + PySDL2, if you want the optional window
 ```
 
 ## 4. Check that it works

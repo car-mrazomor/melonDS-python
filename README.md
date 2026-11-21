@@ -29,8 +29,8 @@ The JIT recompiler is available on x86_64 and arm64. On other CPUs pass `jit=Fal
 - CMake ≥ 3.16
 - Ninja (recommended) or Make
 - Python ≥ 3.10
-- Pillow (`pip install pillow`)
-- Optional, for the window: PySDL2 (`pip install pysdl2 pysdl2-dll`)
+- Pillow: `pip install -r requirements.txt`
+- Optional, for the window: PySDL2: `pip install -r requirements-window.txt` (includes Pillow)
 
 ## Get the source
 
@@ -85,7 +85,7 @@ Windows Python (python.org, uv, ...), not only the MSYS2 one.
 ## Quick check
 
 ```sh
-pip install pillow
+pip install -r requirements.txt
 python scripts/smoke.py path/to/game.nds            # JIT
 python scripts/smoke.py path/to/game.nds --no-jit   # interpreter
 ```

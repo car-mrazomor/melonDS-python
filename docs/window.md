@@ -18,6 +18,7 @@ The window uses [PySDL2](https://pypi.org/project/PySDL2/), the same library PyB
 
 ```sh
 pip install pysdl2 pysdl2-dll
+# or: pip install -r requirements-window.txt
 ```
 
 `pysdl2-dll` ships the SDL2 library itself, so nothing else is needed. Without it,
